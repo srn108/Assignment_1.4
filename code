@@ -1,0 +1,14 @@
+#program to find the volume of a sphere using the formula V=4/3 * π * r3
+
+number = 12
+units = "cm"
+diameter = str(number) + units
+
+print("The diameter of sphere is: %s  " %diameter )
+
+
+pie = 22/7
+
+volume_of_sphere = 4/3 * pie * (number/2)**3
+
+print("The volume of a given sphere is %f cm^3" %volume_of_sphere)
